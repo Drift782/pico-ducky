@@ -11,8 +11,8 @@ from adafruit_hid.keycode import Keycode
 
 # uncomment these lines for non_US keyboards
 # replace LANG with appropriate language
-#from keyboard_layout_win_LANG import KeyboardLayout
-#from keycode_win_LANG import Keycode
+from keyboard_layout_win_LANG import KeyboardLayout
+from keycode_win_SLK import Keycode
 
 import supervisor
 
